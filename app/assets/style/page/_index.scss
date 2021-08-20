@@ -1,0 +1,46 @@
+.taskList {
+    width: 40%;
+    &-item {
+        padding: 12px;
+    }
+}
+
+.list-group {
+    width: 320px;
+    &-item {
+        border: 1px solid $border-gray;
+    }
+}
+
+.taskPost {
+    width: 60%;
+    &_list {
+        position: relative;
+    }
+    &_list_replyInput {
+        position: absolute;
+        z-index: 1;
+        margin: 0 -16px;
+        width: 100%;
+        &_banner {
+            padding: 8px 5px;
+        }
+        &_text {
+            margin-bottom: 152px;
+            color: $border-gray;
+        }
+    }   
+    &_list_replyContent {
+        &_text {
+            margin-bottom: 23px;
+        }
+        &_list {
+            display: inline-block;
+            text-indent: 8px;
+            &::before {
+                content: "●";
+                display: inline-block;
+            }
+        }
+    } 
+}

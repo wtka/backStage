@@ -1,0 +1,186 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="d-flex align-items-center justify-content-between mb-4">
+  <div class="d-flex align-items-center">
+    <h2 class="fw-bold fns-4 me-5">Assignment</h2>
+    <div class="dropdown">
+      <a href="#" class="d-flex align-items-center fw-bold" role="button" id="allCourses" data-bs-toggle="dropdown" aria-expanded="false">
+        All Courses <span class="material-icons text-success">expand_more</span>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="allCourses">
+        <li><a href="#" class="dropdown-item">HTML5</a></li>
+        <li><a href="#" class="dropdown-item">CSS3</a></li>
+        <li><a href="#" class="dropdown-item">Bootstrap5</a></li>
+      </ul>
+    </div>
+  </div>
+  <ul class="d-flex align-items-center list-unstyled">
+    <li class="me-4">
+      <a href="#"><span class="material-icons">search</span></a>
+    </li>
+    <li>
+      <a href="#"><span class="material-icons">notifications_active</span></a>
+    </li>
+  </ul>
+</div>
+<div class="d-flex justify-content-between list-unstyled mb-2">
+  <div class="dropdown">
+    <a href="#" class="d-flex fw-bold" role="button" id="all" data-bs-toggle="dropdown" aria-expanded="flase">
+      All(4) <span class="material-icons text-success">expand_more</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="all">
+      <li><a href="#" class="dropdown-item">Chapter Assigment 2</a></li>
+      <li><a href="#" class="dropdown-item">Chapter Assigment 1</a></li>
+      <li><a href="#" class="dropdown-item">Final Assigment</a></li>
+      <li><a href="#" class="dropdown-item">Final Assigment</a></li>
+    </ul>    
+  </div>
+  <p class="fns-1 text-secondary">2 comments</p>
+</div>
+<div class="d-flex justify-content-between">
+  <ul class="taskList list-group fns-1 me-3">
+    <li class="taskList-item list-group-item">
+      <div class="d-flex justify-content-between">
+        <p class="fns-1">Chapter Assigment 2</p>
+        <p>4 hrs ago</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="fns-3 fw-bold">Please check this file...</p>
+        <p class="text-secondary">Emily Wang</p>
+      </div>
+    </li>
+    <li class="taskList-item list-group-item">
+      <div class="d-flex justify-content-between">
+        <p class="fns-1">Chapter Assigment 1</p>
+        <p>12 hrs ago</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="fns-3 fw-bold">My Homework</p>
+        <p class="text-secondary">David Xu</p>
+      </div>
+    </li>
+    <li class="taskList-item list-group-item">
+      <div class="d-flex justify-content-between">
+        <p class="fns-1">Final Assignment</p>
+        <p>18 hrs ago</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="fns-3 fw-bold">Have a problem with this...</p>
+        <p class="text-secondary">Tony Wei</p>
+      </div>
+    </li>
+    <li class="taskList-item list-group-item">
+      <div class="d-flex justify-content-between">
+        <p class="fns-1">Final Assignment</p>
+        <p>19 hrs ago</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="fns-3 fw-bold">Did I do it right?</p>
+        <p class="text-secondary">Christina Lin</p>
+      </div>
+    </li>
+  </ul>
+  <div class="taskPost card mb-3">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <div>
+        <p class="fns-1">Chapter Assignment 2 / HTML&CSS</p>
+        <p class="fns-3 fw-bold">Please check this file for me, thanks!</p>
+      </div>
+      <span class="material-icons">more_vert</span>
+    </div>
+    <div class="card-body">
+      <div class="d-flex">
+        <div class="flex-shrink-0 me-2">
+          <img src="./assets/images/emilywang.jpeg" alt="emilywang" class="profile-img">
+        </div>
+        <div class="flex-grow-1">
+          <p class="fw-bold">Emily Wang</p>
+          <p class="text-secondary fns-1 mb-3">10:38 AM (4 hours ago)</p>
+          <div>
+            <p class="fns-2 mb-3">
+              Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: 
+              Why in the following code the height of the <span class="text-success bg-light">div</span> 
+              is bigger than the height of the <span class="text-success bg-light">img</span> ?
+              There is a gap below the image, but it doesn’t seems to be a padding/margin. 
+              What is the gap or extra space below image?
+            </p>
+            <a href="#" class="btn btn-light border rounded fw-bold" download="HW-2-David.zip">
+              <span class="material-icons align-middle">attach_file</span>HW-2-Dacid.zip
+            </a>
+            <div class="hr mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="taskPost_list card-body">
+      <div class="taskPost_list_replyInput collapse" id="reply">
+        <div class="taskPost_list_replyInput_banner d-flex bg-light border">
+          <a href="#"><p class="fns-3 fw-bold me-2 ms-4">Body Text</p></a>
+          <a href="#"><span class="material-icons me-4">arrow_drop_down</span></a>
+          <a href="#"><span class="material-icons me-4">format_bold</span></a>
+          <a href="#"><span class="material-icons me-4">format_italic</span></a>
+          <a href="#"><span class="material-icons me-4">format_list_bulleted</span></a>
+          <a href="#"><span class="material-icons me-4">format_list_numbered</span></a>
+          <a href="#"><span class="material-icons me-4">insert_photo</span></a>
+          <a href="#"><span class="material-icons me-4">insert_link</span></a>
+          <a href="#"><span class="material-icons me-4">code</span></a>
+        </div>
+        <div class="bg-white border">
+          <p class="taskPost_list_replyInput_text fns-3 ms-4 mt-4">Reply an answer...</p>
+          <div class="d-flex justify-content-end">
+            <a href="#reply" class="btn btn-outline-success me-2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="reply">Cancel</a>
+            <a href="#" class="btn btn-success">Reply</a>
+          </div>
+        </div>
+      </div>
+      <div class="taskPost_list_replyContent d-flex">
+        <div class="flex-shrink-0 me-2">
+          <img src="./assets/images/andychen.jpeg" alt="andychen" class="profile-img">
+        </div>
+        <div class="flex-grow-1">
+          <div class="d-flex justify-content-between">
+            <div>
+              <p class="fw-bold">Andy Chen (You)</p>
+              <p class="text-secondary fns-1 mb-3">13:24 AM (1 hours ago)</p>
+            </div>
+            <div>
+              <a href="#"><span class="material-icons me-4">star_outline</span></a>
+              <a href="#reply" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="reply">
+                <span class="material-icons">mode_edit</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="taskPost_list_replyContent_text fns-2">
+              Hi David, by default, an image is rendered inline, like a letter
+              so it sits on the same line that a, b, c and d sit on. There is
+              space below that line for the descenders you find on letters like
+              g, j, p and q.<br><br>You can: <br><br>
+              <span class="taskPost_list_replyContent_list">
+                adjust the <span class="text-success bg-light">vertical-align</span> of the
+                image to position it elsewhere (e.g. the <span class="text-success bg-light">middle</span>) or                
+              </span>
+              <span class="taskPost_list_replyContent_list">change the <span class="text-success bg-light">display</span> so it isn't inline.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex justify-content-end align-items-center position-relative">
+  <div class="position-absolute end-50 translate-middle-x">
+    <a href="#"><span class="material-icons me-4">chevron_left</span></a>
+    <a href="#"><span class="material-icons">chevron_right</span></a>
+  </div>
+  <div>
+    <a href="#" class="btn btn-outline-success me-3">Mark as read</a>
+    <a href="#reply" class="btn btn-success" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="reply">Reply</a>
+  </div>
+</div>
+

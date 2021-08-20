@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+    font-family: "Lato", "sans-serif";
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: $link-gray;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.content {
+    width: 920px;
+    padding: 32px;
+    min-height: 100vh;
+}
+  
