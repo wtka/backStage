@@ -61,7 +61,15 @@ p {
 }
 
 .fns-4 {
+  font-size: 20px;
+}
+
+.fns-5 {
   font-size: 24px;
+}
+
+.btn {
+  padding: 8px 32px;
 }
 
 .menu {
@@ -128,6 +136,23 @@ p {
 .taskPost_list_replyContent_list::before {
   content: "●";
   display: inline-block;
+}
+
+.table > :not(caption) > * > * {
+  padding: 19px 8px 17px 8px;
+}
+
+.card-profile-img {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: url("../images/emir.jpeg") no-repeat center center/cover;
+  width: 141px;
+  height: 150px;
+}
+
+.form-control {
+  border-color: #212529;
 }
 
 /*# sourceMappingURL=all.css.map */
