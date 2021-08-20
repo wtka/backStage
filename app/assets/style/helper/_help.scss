@@ -3,3 +3,9 @@
     height: 40px;
     border-radius: 50px;
 }
+
+@mixin hide-text {
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}

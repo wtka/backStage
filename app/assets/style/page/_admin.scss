@@ -1,0 +1,15 @@
+.table > :not(caption) > * > * {
+    padding: 19px 8px 17px 8px;
+}
+
+.card-profile-img {
+    @include hide-text;
+    background: url("../images/emir.jpeg") no-repeat center center/ cover;
+    width: 141px;
+    height: 150px;
+}
+
+.form-control {
+    border-color: #212529;
+}
+  

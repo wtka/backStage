@@ -27,6 +27,13 @@
         font-size: $font-s * 2;
     }
     &-4 {
+        font-size: $font-s * 2.5;
+    }
+    &-5 {
         font-size: $font-s * 3;
     }
+}
+
+.btn {
+    padding: 8px 32px;
 }
